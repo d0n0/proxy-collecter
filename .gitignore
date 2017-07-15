@@ -1,0 +1,6 @@
+node_modules/
+archive/
+.DS_Store
+.*.swp
+.tern-port
+npm-debug.log
