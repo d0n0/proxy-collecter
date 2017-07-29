@@ -9,7 +9,7 @@ const log4js = require('log4js');
 log4js.configure({
   appenders: {
     stdout: { type: "stdout" },
-    file: { type: "file", filename: `${__dirname}../logs/system.log` }
+    file: { type: "file", filename: `${__dirname}/../logs/system.log` }
   },
   categories: {
     default: {
@@ -106,4 +106,4 @@ const crawler = async delay => {
 
 };
 
-crawler(1000);
+crawler(2000);
